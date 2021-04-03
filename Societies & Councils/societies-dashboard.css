@@ -42,7 +42,7 @@ body, head{
 .isa,  .csi, .ieee, .iste, .council, .s-body{
     text-align: center;
     box-shadow: 2px 1px 25px 1px #adadad;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border-radius:38px;
     margin: 10px ;
     padding-bottom: 30px;
