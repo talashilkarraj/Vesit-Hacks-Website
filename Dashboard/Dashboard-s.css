@@ -1,0 +1,117 @@
+.w3-row-padding .w3-margin-bottom {
+    padding-left: 5%;
+}
+
+.w3-quarter{
+    margin: 0 3%;
+}
+
+.w3-container{
+    border-radius: 25px;
+}
+
+.ContainerImage{
+    width:50%;
+    height: 50%;
+}
+
+.ContainerNo{
+    position:relative;
+    top:10%;
+}
+
+#UpcomingEvents{
+    margin: 0 10%;
+    display: none;
+}
+
+#OngoingEvents{
+    margin: 0 10%;
+    display: none;
+}
+
+#CompletedEvents{
+    margin: 0 10%;
+    display: none;
+}
+
+/* .w3-row-padding{
+    margin:0 -16px;
+} */
+
+
+/* .w3-twothird{
+    padding-left: 5% ;
+    width: 100%;
+} */
+
+.EventInfo{
+    border-radius: 10px;
+    box-shadow: 0 3px 1rem rgb(0 0 0 / 20%);
+    margin-bottom: 10px;
+    display: flex;
+    padding: 20px 5px;
+}
+
+.Logo{
+    width: 90px;
+    height: 70px;
+    margin-left: 20px;
+    flex: 10%;
+}
+
+.EventName{
+    margin-right: 100px; margin-left: 90px; text-align:center; flex: 60%;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 150px; height: 70px; float: right; margin-right: 10px; flex: 30%; font-size: 20px;
+  }
+
+  @media (max-width: 360px){
+      .w3-quarter{
+          width: 300px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          margin-left: 2px;
+          
+      }
+
+      .EventInfo{
+          width: 300px;
+          height: auto;
+          display: flex;
+      }
+
+      .Logo{
+          width: 50px;
+          height: 30px;
+          margin-left: 0px;
+          flex: 5%;
+      }
+
+      .EventName{
+          font-size: 15px;
+          margin-right: 0px; margin-left: 0px; text-align:normal; flex: 30%;
+          margin-top: 0px;
+      }
+
+      .button{
+          width: 30px;
+          height: 30px;
+          font-size: 10px;
+          padding: 0px 32px;
+          flex: 15%;
+          
+      }
+  }
