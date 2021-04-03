@@ -4,7 +4,7 @@ Authors: <ul>
          <li>Jatin Dandelia    D14A</li>
          <li>Raj Talashilkar   D11A</li>
          </ul>
-Welcome!
+Welcome!<br/>
 The website "Centralised Event Dashboard" is an entry for the competition VESIT-Hacks, organised by E-Cell.<br/>
 The website is composed of three main pages:<br/>
  1. Login Page<br/>
