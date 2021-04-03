@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <link rel="stylesheet" href="./Dashboard-s.css"> 
+    <title>Event Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+
+
+
+</style>
+	
+</head>
+<body>
+    
+
+    
+    <center>
+    <div class="w3-row-padding w3-margin-bottom">
+        
+        <div class="w3-quarter"  onclick="UpcomingEvents()">
+          <div class="w3-container w3-red w3-padding-16" >
+            <!-- <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div> -->
+            <div><img class="ContainerImage" src="calendar.png" alt="Upcoming Event"></div>
+            <div class="w3-right">
+              <h1 class="ContainerNo">10</h1>
+            </div>
+            <div class="w3-clear"></div>
+            <h1>Upcoming Events</h1>
+          </div>
+        </div>
+
+        <div class="w3-quarter" onclick="OngoingEvents()">
+            <div class="w3-container w3-red w3-padding-16">
+              <!-- <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div> -->
+              <div><img class="ContainerImage" src="calendar.png" alt="Upcoming Event"></div>
+              <div class="w3-right">
+                <h1 class="ContainerNo">10</h1>
+              </div>
+              <div class="w3-clear"></div>
+              <h1>Ongoing Events</h1>
+            </div>
+        </div>
+
+          <div class="w3-quarter" onclick="CompletedEvents()">
+            <div class="w3-container w3-red w3-padding-16">
+              <!-- <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div> -->
+              <div><img class="ContainerImage" src="calendar.png" alt="Upcoming Event"></div>
+              <div class="w3-right">
+                <h1 class="ContainerNo">10</h1>
+              </div>
+              <div class="w3-clear"></div>
+              <h1>Completed Events</h1>
+            </div>
+          </div>
+    </div>
+
+
+</center>
+    <br>
+
+    <div id="UpcomingEvents">
+        <div class="w3-row-padding" style="margin:0 -16px;">
+          
+          <div class="w3-twothird" style="padding-left: 5% ; width: 100%;">
+            <h2>Upcoming Events</h2>
+            <div class="w3-table w3-striped w3-white">
+                <div class="EventInfo" height="100px">
+                    
+                    <img class="Logo" src="ISA-logo-jpg.jpg">
+                    <h2 class="EventName">Django Workshop</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                <div class="EventInfo" height="100px">
+                    
+                    <img class="Logo" src="ISA-logo-jpg.jpg" >
+                    <h2 class="EventName" >MicroController Board Development Workshop</h2>
+                    <button type="button" class="button" > View Details </button>
+
+                </div>
+
+                <div class="EventInfo" height="100px" >
+                    
+                    <img class="Logo" src="ISA-logo-jpg.jpg">
+                    <h2 class="EventName" >Urja</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                <div class="EventInfo" height="100px" >
+                    
+                    <img class="Logo" src="AICTE.png">
+                    <h2 class="EventName" >Web Automation Workshop</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                
+
+            
+                
+
+            </div>
+            <!-- <table class="w3-table w3-striped w3-white" >
+              <tr height="100px" style="border-radius: 10px; box-shadow: 0 3px 1rem rgb(0 0 0 / 20%);; margin-bottom: 10px;">
+                <td><img src="ISA-logo-jpg.jpg" style="width: 90px;height: 70px;"></td>
+                <td><img src="ISA-logo-jpg.jpg" style="width: 10%;"></td>
+                <td style="padding-top: 3%;"><h3>Django Workshop</h3></td>
+                <td style="padding-top: 3%; padding-right: 0%;"><button type="button" class="button"> View Details </button></td>
+              </tr>
+           
+              
+              
+              
+            </table> -->
+          </div>
+        </div>
+    </div>
+
+    
+
+    <div id="OngoingEvents">
+        <div class="w3-row-padding" style="margin:0 -16px;">
+          
+          <div class="w3-twothird" style="padding-left: 5% ; width: 100%;">
+            <h2>Ongoing Events</h2>
+            <div class="w3-table w3-striped w3-white">
+                <div class="EventInfo" height="100px" >
+                    
+                    <img class="Logo" src="ISA-logo-jpg.jpg" >
+                    <h2 class="EventName">3D Animation using Three.Js Workshop</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                <div class="EventInfo" height="100px" >
+                    
+                    <img class="Logo" src="ISA-logo-jpg.jpg" >
+                    <h2 class="EventName">MicroController Board Development Workshop</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                <div class="EventInfo" height="100px" >
+                    
+                    <img class="Logo" src="CSI.jfif" >
+                    <h2 class="EventName">Urja</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                <div class="EventInfo" height="100px" >
+                    
+                    <img class="Logo" src="AICTE.png" >
+                    <h2 class="EventName">Web Automation Workshop</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                
+
+            
+                
+
+            </div>
+            <!-- <table class="w3-table w3-striped w3-white" >
+              <tr height="100px" style="border-radius: 10px; box-shadow: 0 3px 1rem rgb(0 0 0 / 20%);; margin-bottom: 10px;">
+                <td><img src="ISA-logo-jpg.jpg" style="width: 90px;height: 70px;"></td>
+                <td><img src="ISA-logo-jpg.jpg" style="width: 10%;"></td>
+                <td style="padding-top: 3%;"><h3>Django Workshop</h3></td>
+                <td style="padding-top: 3%; padding-right: 0%;"><button type="button" class="button"> View Details </button></td>
+              </tr>
+           
+              
+              
+              
+            </table> -->
+          </div>
+        </div>
+    </div>
+
+    
+
+    <div id="CompletedEvents">
+        <div class="w3-row-padding" style="margin:0 -16px;">
+          
+          <div class="w3-twothird" style="padding-left: 5% ; width: 100%;">
+            <h2>Completed Events</h2>
+            <div class="w3-table w3-striped w3-white">
+                <div class="EventInfo" height="100px" >
+                    
+                    <img class="Logo" src="ISA-logo-jpg.jpg" >
+                    <h2 class="EventName">Image Processing Workshop</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                <div class="EventInfo" height="100px" >
+                    
+                    <img class="Logo" src="ISA-logo-jpg.jpg">
+                    <h2 class="EventName">MicroController Board Development Workshop</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                <div class="EventInfo" height="100px" >
+                    
+                    <img class="Logo" src="ISA-logo-jpg.jpg" >
+                    <h2 class="EventName" >Urja</h2>
+                    <button type="button" class="button" > View Details </button>
+
+                </div>
+
+                <div class="EventInfo"  height="100px" >
+                    
+                    <img class="Logo" src="AICTE.png">
+                    <h2 class="EventName">Web Automation Workshop</h2>
+                    <button type="button" class="button"> View Details </button>
+
+                </div>
+
+                
+
+            
+                
+
+            </div>
+            <!-- <table class="w3-table w3-striped w3-white" >
+              <tr height="100px" style="border-radius: 10px; box-shadow: 0 3px 1rem rgb(0 0 0 / 20%);; margin-bottom: 10px;">
+                <td><img src="ISA-logo-jpg.jpg" style="width: 90px;height: 70px;"></td>
+                <td><img src="ISA-logo-jpg.jpg" style="width: 10%;"></td>
+                <td style="padding-top: 3%;"><h3>Django Workshop</h3></td>
+                <td style="padding-top: 3%; padding-right: 0%;"><button type="button" class="button"> View Details </button></td>
+              </tr>
+           
+              
+              
+              
+            </table> -->
+          </div>
+        </div>
+    </div>
+      
+
+    
+    <script>
+        var UpcomingEvents = function(){
+            document.getElementById('UpcomingEvents').style.display = "block";
+            document.getElementById('OngoingEvents').style.display = "none";
+            document.getElementById('CompletedEvents').style.display = "none";
+        }
+
+        var OngoingEvents = function(){
+            document.getElementById('OngoingEvents').style.display = "block";
+            document.getElementById('UpcomingEvents').style.display = "none";
+            document.getElementById('CompletedEvents').style.display = "none";
+        }
+
+        var CompletedEvents = function(){
+            document.getElementById('CompletedEvents').style.display = "block";
+            document.getElementById('UpcomingEvents').style.display = "none";
+            document.getElementById('OngoingEvents').style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
