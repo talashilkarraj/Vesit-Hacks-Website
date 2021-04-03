@@ -1,7 +1,7 @@
 # Vesit-Hacks-Website
 Authors: Omkar mangalpalli D12A<br/>
-         Jatin Dandelia    D14A<br/>
-         Raj Talashilkar   D11A<br/>
+         <r/>Jatin Dandelia    D14A<br/>
+         <r/> Raj Talashilkar   D11A<br/>
          
 Welcome!
 The website "Centralised Event Dashboard" is an entry for the competition VESIT-Hacks, organised by E-Cell.<br/>
