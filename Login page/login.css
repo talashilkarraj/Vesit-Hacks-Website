@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.bg-img{
+  background-image: url("bg.jpg");
+  filter: blur(6px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login{
+    width:400px;
+    height:600px;
+    background-color: rgb(29, 29, 29);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.profile-img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    transform: translateY(-40px) translateX(160px);;
+    
+
+}
