@@ -56,3 +56,13 @@ a {
 a :hover{
     color: rgb(80, 80, 80);
 }
+
+@media only screen and (max-width:1300px){
+    .societies, .Councils, .student-bodies{
+    grid-template-columns: repeat(1,1fr);
+    border-block-width: 100px;
+    align-items: center;
+    display: block;    
+    margin: 40px;
+    }
+}
